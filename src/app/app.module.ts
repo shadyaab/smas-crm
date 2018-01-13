@@ -8,10 +8,18 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { AgmCoreModule } from '@agm/core';
+import { MapComponent } from './map/map.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapComponent,
+    NavigationComponent,
+    ContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
